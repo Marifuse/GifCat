@@ -1,6 +1,14 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <h1>Welcome to Your Vue.js App</h1>
+    <ClassBinding></ClassBinding>
   </div>
 </template>
+
+<script>
+import ClassBinding from './components/ClassBinding.vue'
+export default {
+  components: {
+    ClassBinding
+  },
+}
+</script>
